@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":""
+    "build": "rm -rf bin && ttsc && node ./bin/executable/server.js",
+    "test": "node 1.js",
+    "start": ""
+
   },
   "repository": {
     "type": "git",
