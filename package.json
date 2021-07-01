@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf bin && ttsc && node ./bin/executable/server.js",
+    "build": "rm -rf bin && ttsc --watch",
     "test": "node 1.js",
-    "start": ""
-
+    "start": "node ./bin/executable/server.js"
   },
   "repository": {
     "type": "git",
