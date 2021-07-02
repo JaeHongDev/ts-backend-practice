@@ -24,7 +24,7 @@ export class Configuration {
     const account: string = SGlobal.mode === "LOCAL" ? "root" : "bbs_w";
     const host: string =
       SGlobal.mode === "REAL" ? "YOUR-RDS-ADDRESS" : "127.0.0.1";
-
+    
     return {
       // CONNECTION INFO
       type: "mariadb" as const,
