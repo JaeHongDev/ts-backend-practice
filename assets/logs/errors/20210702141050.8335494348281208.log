@@ -1,5 +1,0 @@
-{
-    "name": "WebError",
-    "message": "Connection refused.",
-    "stack": "WebError: Connection refused.\n    at WebError.Exception [as constructor] (/workspace/ts-backend-practice/node_modules/tstl/exception/Exception.js:42:28)\n    at WebError.LogicError [as constructor] (/workspace/ts-backend-practice/node_modules/tstl/exception/LogicError.js:39:23)\n    at WebError.DomainError (/workspace/ts-backend-practice/node_modules/tstl/exception/DomainError.js:39:23)\n    at new WebError (/workspace/ts-backend-practice/node_modules/tgrid/protocols/web/WebError.js:38:28)\n    at /workspace/ts-backend-practice/node_modules/tgrid/protocols/web/WebConnector.js:179:24\n    at WebSocket.<anonymous> (/workspace/ts-backend-practice/node_modules/tgrid/protocols/internal/once.js:41:27)\n    at WebSocket.onError (/workspace/ts-backend-practice/node_modules/ws/lib/event-target.js:140:16)\n    at WebSocket.emit (events.js:376:20)\n    at ClientRequest.<anonymous> (/workspace/ts-backend-practice/node_modules/ws/lib/websocket.js:591:15)\n    at ClientRequest.emit (events.js:376:20)"
-}

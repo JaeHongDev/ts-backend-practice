@@ -2,8 +2,6 @@ import * as fs from "fs";
 
 import { Singleton } from "tstl/thread/Singleton";
 import { randint } from "tstl/algorithm/random";
-import { Backend } from "../Backend";
-import { Configuration } from "../Configuration";
 import { ErrorUtil } from "../utils/ErroUtil";
 
 
