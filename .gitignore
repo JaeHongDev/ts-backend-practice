@@ -1,6 +1,6 @@
-bin/
-lib/
-node_modules/
+backend1/bin/
+backend1/lib/
+backend1/node_modules/
 
 *.DS_Store
 package-lock.json
